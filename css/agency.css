@@ -121,7 +121,7 @@ fieldset[disabled] .btn-primary.active {
     padding: 20px 40px;
     border-color: #e86f22;
     border-radius: 3px;
-	border-width: 3px; /**/
+	border-width: 5px; /**/
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 18px;
@@ -217,6 +217,8 @@ fieldset[disabled] .btn-xl.active {
     font-weight: 400;
     letter-spacing: 1px;
     color: #fff;
+	text-shadow: 0px 0px 10px rgba(10, 10, 10, 40);
+	
 }
 
 .navbar-default .nav li a:hover,
@@ -284,6 +286,7 @@ header {
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
+	text-shadow: 0px 0px 10px rgba(10, 10, 10, 40);
 }
 
 header .intro-text .intro-lead-in {
@@ -327,10 +330,6 @@ header .intro-text .intro-heading {
     }
 }
 
-section {
-    padding: 100px 0;
-}
-
 section h2.section-heading {
     margin-top: 0;
     margin-bottom: 15px;
@@ -348,7 +347,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 75px 0 50px;
     }
 }
 
